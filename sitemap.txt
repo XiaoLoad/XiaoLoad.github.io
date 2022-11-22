@@ -9,7 +9,7 @@ http://example.com/music/index.html
 http://example.com/link/index.html
 http://example.com/categories/index.html
 http://example.com/
-http://example.com/tags/JavaScript/
 http://example.com/tags/%E6%B4%BE%E5%A4%A7%E6%98%9F%E7%9A%84%E6%97%A5%E8%AE%B0/
-http://example.com/categories/%E7%AC%94%E8%AE%B0/
+http://example.com/tags/JavaScript/
 http://example.com/categories/%E6%B4%BE%E5%A4%A7%E6%98%9F%E7%9A%84%E6%97%A5%E8%AE%B0/
+http://example.com/categories/%E7%AC%94%E8%AE%B0/
