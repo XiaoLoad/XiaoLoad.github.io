@@ -163,6 +163,7 @@
 .box_text {
   padding: 10px;
   text-align: center;
+  margin: 0 auto;
   border-radius: 10px;
   /* border: 1px solid red; */
   /* box-shadow: 
