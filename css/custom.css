@@ -1,12 +1,12 @@
 /* 夜间模式菜单栏发光字 */
 [data-theme="dark"] #nav .site-page,
 [data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {
-	text-shadow: 0 0 2px var(--theme-color) !important;
+  text-shadow: 0 0 2px var(--theme-color) !important;
 }
 
 /* 手机端适配 */
 [data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {
-	text-shadow: 0 0 2px var(--theme-color) !important;
+  text-shadow: 0 0 2px var(--theme-color) !important;
 }
 
 /* 翻页按钮居中 */
@@ -16,15 +16,13 @@
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
-  background: linear-gradient(
-    -45deg,
-    #e8d8b9,
-    #eccec5,
-    #a3e9eb,
-    #bdbdf0,
-    #eec1ea
-  );
+#aside-content>.card-widget.card-info {
+  background: linear-gradient(-45deg,
+      #e8d8b9,
+      #eccec5,
+      #a3e9eb,
+      #bdbdf0,
+      #eec1ea);
   box-shadow: 0 0 5px rgb(66, 68, 68);
   position: relative;
   background-size: 400% 400%;
@@ -32,47 +30,56 @@
   -moz-animation: Gradient 10s ease infinite;
   animation: Gradient 10s ease infinite !important;
 }
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
+
 @-moz-keyframes Gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
+
 @keyframes Gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
 
 /* 黑夜模式适配 */
-[data-theme="dark"] #aside-content > .card-widget.card-info {
+[data-theme="dark"] #aside-content>.card-widget.card-info {
   background: #191919ee;
 }
 
 /* 个人信息Follow me按钮 */
-#aside-content > .card-widget.card-info > #card-info-btn {
+#aside-content>.card-widget.card-info>#card-info-btn {
   background-color: #3eb8be;
   border-radius: 8px;
 }
@@ -81,6 +88,7 @@
 #footer {
   background: transparent !important;
 }
+
 #page-header {
   background: transparent !important;
 }
@@ -89,6 +97,7 @@
 #footer::before {
   background: transparent !important;
 }
+
 #page-header::before {
   background: transparent !important;
 }
@@ -97,6 +106,7 @@
 [data-theme="dark"] #footer::before {
   background: transparent !important;
 }
+
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
@@ -148,3 +158,30 @@
 }
 
 /* https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg */
+
+/* 新年倒计时模块 */
+.box_text {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  /* box-shadow: 
+  0 1px 1px rgba(0, 0, 0, 0.2),
+
+  0 8px 0 -3px #f6f6f6,
+  0 9px 1px -3px rgba(0, 0, 0, 0.3),
+
+  0 16px 0 -6px #f6f6f6,
+  0 17px 2px -6px rgba(0, 0, 0, 0.2); */
+  position: relative;
+  max-width: 270px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3),
+    0px 0px 20px rgba(0, 0, 0, 0.1) inset;
+
+
+}
+
+/* 让公告文字居中 */
+.announcement_content {
+  text-align: center;
+}
