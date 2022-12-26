@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-12-14T15:58:10.676Z</updated>
+  <updated>2022-12-16T11:18:17.602Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java学习笔记</title>
+    <link href="http://example.com/2022/12/16/Java/"/>
+    <id>http://example.com/2022/12/16/Java/</id>
+    <published>2022-12-16T14:33:38.000Z</published>
+    <updated>2022-12-16T11:18:17.602Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java-学习笔记"><a href="#Java-学习笔记" class="headerlink" title="Java 学习笔记"></a>Java 学习笔记</h1><h2 id="1-数组"><a href="#1-数组" class="headerlink" title="1.数组"></a>1.数组</h2><p>数组：是一种容器，可以存放同种数据类型的多个值。</p><ul><li>数组容器在存放数据的时候，需要结合隐式转换考虑。</li><li>例如：int 类型的数组容器可以存放 <code>byte short int</code><ul><li>double 类型的可以存放 <code>byte short int long float double</code></li></ul></li><li>元素应该与数组容器的类型保持一致。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Java-学习笔记&quot;&gt;&lt;a href=&quot;#Java-学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Java 学习笔记&quot;&gt;&lt;/a&gt;Java 学习笔记&lt;/h1&gt;&lt;h2 id=&quot;1-数组&quot;&gt;&lt;a href=&quot;#1-数组&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    <category term="笔记" scheme="http://example.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>派大星的日记  22/12/14 📔</title>
@@ -42,7 +66,7 @@
     <link href="http://example.com/2022/12/06/22%E5%B9%B412%E6%9C%886%E6%97%A5/"/>
     <id>http://example.com/2022/12/06/22%E5%B9%B412%E6%9C%886%E6%97%A5/</id>
     <published>2022-12-06T14:30:23.000Z</published>
-    <updated>2022-12-14T15:57:53.964Z</updated>
+    <updated>2022-12-26T12:02:26.686Z</updated>
     
     <content type="html"><![CDATA[<h1 id="派大星的日记-22-x2F-12-x2F-06-📔"><a href="#派大星的日记-22-x2F-12-x2F-06-📔" class="headerlink" title="派大星的日记 22&#x2F;12&#x2F;06 📔"></a>派大星的日记 22&#x2F;12&#x2F;06 📔</h1><blockquote><p>天气：很冷，阴天。</p></blockquote><blockquote><p>心情：开心</p></blockquote><style>.main {    padding: 0;    text-indent: 2rem;}.main {    margin: 0 0 !important;    line-height: 2em;    font-family: '微软雅黑';    list-style-type: none !important;}    .img_text {        text-align: center;        margin: 0 !important;        font-size: 12px;    }    .text_color {        background-color: yellow;    }</style><h3 id="日记主体："><a href="#日记主体：" class="headerlink" title="日记主体："></a>日记主体：</h3><p class="main">今天，早上很早起床，早餐是面，在家里呢除了面就是包子或者抄手了，容易吃腻歪。外面疫情还蛮严重不然可以去超市买点其他的。早上的课是思政课，讲了如何传承道德什么的，老师讲的比较快，我把它录了下来，结果一录就是十几个GB的大小，我的盘直接就红了，太恐怖了。</p><p class="main">中午，吃的两菜一汤，清清淡淡的蛮好的。吃完中午饭就睡了会中午觉，一下午都是计算机网络，也是这学期的最后一节了，想来也快放假了，后面的课就越来越少了。下午呢，并没有讲课，而是让我们考试。内容挺少，就理论和实操，实操难一些，但所占分值大，理论呢比较简单三十分钟就做完了。实操花了我三小时才搞定，也得亏以前有录屏的习惯，把老师操作的实操讲解部分给录了下来，勉强的完成了这次考试。</p><p class="main">晚上，作业完成了，也该吃饭了。晚饭也是两菜一汤，清清淡淡不带辣，我妈说少吃辣的，不然容易长痘。和老爸打了视频，老爸又在嘀咕我的头发，又长了该剪了，我寻思着天气冷了，留长了过东不好嘛，多暖和。记了单词，看了会css的选择器优先级。看了别人的项目直播，获益匪浅。和朋友聊聊天，她说要等我去她家乡，揍我。今天就结束啦，洗澡洗漱，上床睡觉</p><blockquote><p>今日总结 ：今日在家无任何消费，以后日记不日日所记了。在学校天天记也是因为封校在寝室想记录下来。当然也不是说以后不更新了，我会把有趣的日子记录下来的。</p><p>明日期望：希望安好</p></blockquote><p style="float: right">2022年12月6日22:22:50</p><br>]]></content>
     
