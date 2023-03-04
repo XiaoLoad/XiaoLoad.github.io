@@ -1,6 +1,6 @@
 function countDown(){
 var start = new Date();  //开始时间
-var end = new Date('2023/1/1,00:00:00');//结束时间，可以设置时间
+var end = new Date('2024/1/1,00:00:00');//结束时间，可以设置时间
 //parseInt()取整
 var result = parseInt((end.getTime()-start.getTime())/1000);//计算出豪秒
 var d = parseInt(result/(24*60*60));//用总共的秒数除以1天的秒数
