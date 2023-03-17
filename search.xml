@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title></title>
+      <title>Blog上传报错问题解决</title>
       <link href="/posts/0.html"/>
       <url>/posts/0.html</url>
       
-        <content type="html"><![CDATA[<hr><hr><h3 id="1-问题记录"><a href="#1-问题记录" class="headerlink" title="1. 问题记录"></a>1. 问题记录</h3><p>当上传时，<code>hexo s</code>与<code>hexo g</code>都会报错，报错详情如图：</p><p><img src="/blog%E4%B8%8A%E4%BC%A0%E8%A7%A3%E9%87%8A%E5%A4%B1%E8%B4%A5%E5%87%BA%E9%94%99%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20230317174229199.png" alt="image-20230317174229199"></p><p>错误代码：<code>Nunjucks Error: _posts/Java Notes.md [Line 91, Column 39] tag name expected</code></p><h3 id="2-解决方法"><a href="#2-解决方法" class="headerlink" title="2. 解决方法"></a>2. 解决方法</h3><p>按照官网文档描述(<a href="https://hexo.io/docs/troubleshooting">Troubleshooting | Hexo</a>)</p><p><img src="/blog%E4%B8%8A%E4%BC%A0%E8%A7%A3%E9%87%8A%E5%A4%B1%E8%B4%A5%E5%87%BA%E9%94%99%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20230317174801224.png" alt="image-20230317174801224"></p><p><strong>其他方法</strong></p><p><strong>其他方法</strong></p><p><code>&#123; &#123;</code>和<code>&#125; &#125;</code>之间<strong>加上空格</strong>变成<code>&#123; &#123;</code>和<code>&#125; &#125;</code> （这里看不出区别，知道这个意思就行…） <code>&#123; %</code>和<code>% &#125;</code>之间<strong>加上空格</strong>变成<code>&#123; %</code>和<code>% &#125;</code></p><p>1.作品撰写的目的和基本思路</p><p>企业办公信息化管理系统是一种综合应用技术的信息化系统，旨在帮助企业完成各类信息化需求，包括但不限于日常办公、业务管理、数据存储和查询等功能。该系统采用了Spring Boot、Vue.js、Element-UI等技术，通过前后端分离、分布式、RBAC权限控制设计等技术手段，实现了系统的可扩展性、安全性和稳定性。并且提出了构建立体、全面、便捷的办公管理信息化工程体系的重要性，针对传统线下办公管理与网上办公管理的异同，通过实践具体分析行业需求，初步探讨大环境下IT技术如何切实服务地方企业发展，并构建完成了具体的企业办公管理信息化系统。研究表明，随着数字化、移动化趋势的加速发展，以在线办公为代表的灵活工作模式将持续创新发展。同时，随着以5G、大数据、物联网、人工智能等为代表的新型基础设施建设的不断加快，在线办公服务的响应速度、存储能力、功能适用性等服务性能将不断提升。</p><p>与线下办公相比，线上办公具有灵活性、协作性和数据管理等优势，这些优势可以通过该系统的在线办公功能得以实现。在线办公的优势在于不受时间和空间限制，可以方便地共享和协作信息，减少沟通成本，同时采用数字化方式进行数据存储和管理，可以方便地查询和分享，减少了数据管理的难度。此外，该系统的在线办公功能还具有其他优点，比如方便的异地办公和远程协作等方面。尤其是在当前疫情的背景下，在线办公功能更是发挥了重要作用，许多企业可以依靠该系统实现远程办公和在线协作，保证业务的正常运转和员工的安全健康。该系统的优势不仅体现在在线办公方面，系统的可扩展性、安全性和稳定性也是企业所追求的。该系统采用了分布式架构，可以方便地进行扩展和升级，同时也提供了强大的RBAC权限控制，保证了系统的安全性和稳定性。同时，随着数字化、移动化趋势的加速发展，在线办公服务的响应速度、存储能力、功能适用性等服务性能也将不断提升。在未来，企业应该加强对信息化工程的建设和应用，积极引入先进的在线办公技术和管理模式，提高企业的信息化水平和核心竞争力，适应未来信息化时代的发展趋势，而该系统提供的功能可以帮助企业更好地实现在线办公，提高企业的生产效率和经济效益。因此，企业可以通过使用该系统，更好地实现在线办公，提高企业的生产效率和经济效益，适应未来信息化时代的发展趋势。</p><p>线下办公的一些不足之处，例如：</p><ol><li>时间和空间限制：线下办公需要人们到特定地点进行工作，因此受时间和空间的限制，这可能导致效率低下和工作延迟。</li><li>信息共享困难：线下办公通常需要人们面对面交流，信息的共享和交流受到限制，无法高效地与他人协作完成任务。</li><li>数据存储和管理难度：线下办公通常使用纸质文档或电子表格等方式进行数据存储，这种方式不仅占用空间，而且数据管理也容易出现混乱和错误。</li></ol><p>线上办公具有以下优势：</p><ol><li>灵活性：在线办公不受时间和空间的限制，可以随时随地进行工作，提高了工作效率。</li><li>协作性：在线办公可以方便地共享和协作信息，加快了团队之间的协作和决策，同时减少了沟通成本。</li><li>数据管理：在线办公采用数字化方式进行数据存储和管理，可以方便地查询和分享，减少了数据管理的难度。</li></ol>]]></content>
+        <content type="html"><![CDATA[<hr><hr><h3 id="1-问题记录"><a href="#1-问题记录" class="headerlink" title="1. 问题记录"></a>1. 问题记录</h3><p>当上传时，<code>hexo s</code>与<code>hexo g</code>都会报错，报错详情如图：</p><p><img src="https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/image-20230317174229199.png" alt="image-20230317174229199"></p><p>错误代码：<code>Nunjucks Error: _posts/Java Notes.md [Line 91, Column 39] tag name expected</code></p><h3 id="2-解决方法"><a href="#2-解决方法" class="headerlink" title="2. 解决方法"></a>2. 解决方法</h3><p>按照官网文档描述(<a href="https://hexo.io/docs/troubleshooting">Troubleshooting | Hexo</a>)</p><p><img src="/blog%E4%B8%8A%E4%BC%A0%E8%A7%A3%E9%87%8A%E5%A4%B1%E8%B4%A5%E5%87%BA%E9%94%99%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20230317174801224.png" alt="image-20230317174801224"></p><p><strong>其他方法</strong></p><p><strong>其他方法</strong></p><p><code>&#123; &#123;</code>和<code>&#125; &#125;</code>之间<strong>加上空格</strong>变成<code>&#123; &#123;</code>和<code>&#125; &#125;</code> （这里看不出区别，知道这个意思就行…） <code>&#123; %</code>和<code>% &#125;</code>之间<strong>加上空格</strong>变成<code>&#123; %</code>和<code>% &#125;</code></p>]]></content>
       
       
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+        </tags>
       
     </entry>
     
@@ -405,11 +417,11 @@
     
     
     <entry>
-      <title>派大星的日记  22/12/03 📔</title>
-      <link href="/posts/49487.html"/>
-      <url>/posts/49487.html</url>
+      <title>派大星的日记  22/12/04 📔</title>
+      <link href="/posts/30286.html"/>
+      <url>/posts/30286.html</url>
       
-        <content type="html"><![CDATA[<h1 id="派大星的日记-22-x2F-12-x2F-03-📔"><a href="#派大星的日记-22-x2F-12-x2F-03-📔" class="headerlink" title="派大星的日记 22&#x2F;12&#x2F;03 📔"></a>派大星的日记 22&#x2F;12&#x2F;03 📔</h1><blockquote><p>天气：今天天气很冷，我感觉很热，难受</p></blockquote><blockquote><p>心情：虽然说今天回家，但我并没有好心情🌼</p></blockquote><style>.main {    padding: 0;    text-indent: 2rem;}.main {    margin: 0 0 !important;    line-height: 2em;    font-family: '微软雅黑';    list-style-type: none !important;}    .img_text {        text-align: center;        margin: 0 !important;        font-size: 12px;    }    .text_color {        background-color: yellow;    }</style><h3 id="日记主体："><a href="#日记主体：" class="headerlink" title="日记主体："></a>日记主体：</h3><p class="main">今天我睡得太死，并没有被闹钟叫醒，所以没领到早餐，还好我室友看到我没去领，他自己去领了。有时候，我总觉得我没醒，是因为闹钟没响，其实不然，闹钟是程序，即使手机关机，它都要把你叫醒，可惜你睡得太死，压根没听到，所以总觉得闹钟没响~早餐很好，沙糕和稀饭。挺好</p><p class="main">中午呢，我爹给我打电话说找到车了，我说没问题，今天做了核酸明天就能走就挂了电话，结果呢我妈也给我打电话，说她也找到车了，我人都傻了，为啥他们都不沟通的，两辆车总得鸽一辆，我妈说今天核酸结果出了，就可以走，于是乎我就选择了今天走。中午的饭是室友领的，饭不错，还是挺好的，吃了饭呢，我就开始和室友一起收拾行李，准备回家，寝室六个人都走，没人宁当守寝人。</p><p class="main">下午呢，就一直在等待，等待着核酸结果出来，就可以回家啦，可是让我没想到的是，这核酸愣是一下午都没出来，可恶。一直等啊等，打着游戏等，看着手机等，生怕错过了，愣是没等出来，可难受死了</p><p class="main">晚上，等啊等，我连学校最后一顿隔离饭都吃上了，还没等出来，我开始有点慌了，怕今天回不去，又得重新找车，重新铺床。等啊等，终于在19点整等到，这期间呢司机是问了很多次，但是嘞，她一直在等，看来他是很想赚我这笔。核酸一出，我就立马背着包，拉着箱，急匆匆的往下走，领了离校证明，走出了宿舍大楼，在19点18分时候我终于出了校门，校门的车特别多，我一辆一辆的看啊，找了车坐了上去，就走上了回家的路。一路上我都难受，司机拉了四个人，副驾驶一个，后排三个挤着坐，可把我热死了，又闷又热。一路上都很难受，难受了两小时左右，终于过收费站，下了车，登记。然后把我送到家门口，一下车我就吐了，司机开的很快，速度都不带停的，一路上弯弯绕，一路上晕乎乎。下了车，我就吐了，吐了一地。</p><p class="main">终于呢我在十点多的时候回到了家，回到家，交代了老妈把我吐的东西收拾一下，毕竟吐了人家门口，蛮不好的。回了家，洗漱，直接就奔床上了，晕晕乎乎的睡着了。明天早上还要等着社区的人来给我做核酸，还有居家隔离三天。</p><blockquote><p>今日总结 ：花销250元车费，因为今天回家，所以今天日记是4号写的。</p><p>明日期望：希望安好</p></blockquote><p style="float: right">2022年12月4日21:01:45</p><br>]]></content>
+        <content type="html"><![CDATA[<h1 id="派大星的日记-22-x2F-12-x2F-04-📔"><a href="#派大星的日记-22-x2F-12-x2F-04-📔" class="headerlink" title="派大星的日记 22&#x2F;12&#x2F;04 📔"></a>派大星的日记 22&#x2F;12&#x2F;04 📔</h1><blockquote><p>天气：家里很冷，体感温度都到了3℃了，老冷了</p></blockquote><blockquote><p>心情：回家啦，开心</p></blockquote><style>.main {    padding: 0;    text-indent: 2rem;}.main {    margin: 0 0 !important;    line-height: 2em;    font-family: '微软雅黑';    list-style-type: none !important;}    .img_text {        text-align: center;        margin: 0 !important;        font-size: 12px;    }    .text_color {        background-color: yellow;    }</style><h3 id="日记主体："><a href="#日记主体：" class="headerlink" title="日记主体："></a>日记主体：</h3><p class="main">今天是美好的开始，我回家了，也是我回家的第一天，日记篇幅也不会变长的，我在家和在寝室封着区别不大。我的生活不怎么有趣，能记录也是我想给我的生活做点什么，也许等我老了，还能有机会体验走马灯。</p><p class="main">早上，我很舒服的在温暖的大被子里醒来，太暖和了我都不想起床，但没办法，要起床洗漱吃早饭了，我妈早早地就起床出去买菜了，我呢因为居家隔离，在房间里不能出门。早上7点多，外面就很吵了，社区工作人员在举着喇叭吼着戴口罩，蛮热闹的。早上吃的面条，肉很多比学校的强的多了，老妈在家就是好啊。吃完早饭就开始上课啦，早上是选修课，中国史。</p><p class="main">下午，上完课，就吃中午饭啦，中午吃的一菜一汤，挺好的，就是饭有点硬。吃完中午饭，就在看我的博客准备补一下3号的日记，结果嘞，发现网站出问题了，进不去，又花了两小时的时间找bug，解决完之后，又玩了会游戏，看了看电视。终于把觉醒年代看到十六集了！</p><p class="main">晚上，晚上呢没什么有趣的事发生，我爸因为从河北去往云南，被强制隔离了，我妈很着急，拉着我问怎么办。我只好给她解释，给我爸打了电话，了解了情况，发现问题不大，隔离五天就好了。我妈便不怎么担心啦，和老妈老爸讲了我在学校的趣事儿，还有比赛的事儿。我妈就说要睡觉了，让我早点睡。现在才21点，对我来讲，还太早，所以我就开始写日记啦，写完日记，再打会游戏，就睡觉啦</p><blockquote><p>今日总结 ：今日在家无任何消费，看了觉醒年代，感觉自己思想升华了。复习了单词，看了别人写直播写项目，颇有收获。</p><p>明日期望：希望安好</p></blockquote><p style="float: right">2022年12月4日21:22:50</p><br>]]></content>
       
       
       <categories>
@@ -430,11 +442,11 @@
     
     
     <entry>
-      <title>派大星的日记  22/12/04 📔</title>
-      <link href="/posts/30286.html"/>
-      <url>/posts/30286.html</url>
+      <title>派大星的日记  22/12/03 📔</title>
+      <link href="/posts/49487.html"/>
+      <url>/posts/49487.html</url>
       
-        <content type="html"><![CDATA[<h1 id="派大星的日记-22-x2F-12-x2F-04-📔"><a href="#派大星的日记-22-x2F-12-x2F-04-📔" class="headerlink" title="派大星的日记 22&#x2F;12&#x2F;04 📔"></a>派大星的日记 22&#x2F;12&#x2F;04 📔</h1><blockquote><p>天气：家里很冷，体感温度都到了3℃了，老冷了</p></blockquote><blockquote><p>心情：回家啦，开心</p></blockquote><style>.main {    padding: 0;    text-indent: 2rem;}.main {    margin: 0 0 !important;    line-height: 2em;    font-family: '微软雅黑';    list-style-type: none !important;}    .img_text {        text-align: center;        margin: 0 !important;        font-size: 12px;    }    .text_color {        background-color: yellow;    }</style><h3 id="日记主体："><a href="#日记主体：" class="headerlink" title="日记主体："></a>日记主体：</h3><p class="main">今天是美好的开始，我回家了，也是我回家的第一天，日记篇幅也不会变长的，我在家和在寝室封着区别不大。我的生活不怎么有趣，能记录也是我想给我的生活做点什么，也许等我老了，还能有机会体验走马灯。</p><p class="main">早上，我很舒服的在温暖的大被子里醒来，太暖和了我都不想起床，但没办法，要起床洗漱吃早饭了，我妈早早地就起床出去买菜了，我呢因为居家隔离，在房间里不能出门。早上7点多，外面就很吵了，社区工作人员在举着喇叭吼着戴口罩，蛮热闹的。早上吃的面条，肉很多比学校的强的多了，老妈在家就是好啊。吃完早饭就开始上课啦，早上是选修课，中国史。</p><p class="main">下午，上完课，就吃中午饭啦，中午吃的一菜一汤，挺好的，就是饭有点硬。吃完中午饭，就在看我的博客准备补一下3号的日记，结果嘞，发现网站出问题了，进不去，又花了两小时的时间找bug，解决完之后，又玩了会游戏，看了看电视。终于把觉醒年代看到十六集了！</p><p class="main">晚上，晚上呢没什么有趣的事发生，我爸因为从河北去往云南，被强制隔离了，我妈很着急，拉着我问怎么办。我只好给她解释，给我爸打了电话，了解了情况，发现问题不大，隔离五天就好了。我妈便不怎么担心啦，和老妈老爸讲了我在学校的趣事儿，还有比赛的事儿。我妈就说要睡觉了，让我早点睡。现在才21点，对我来讲，还太早，所以我就开始写日记啦，写完日记，再打会游戏，就睡觉啦</p><blockquote><p>今日总结 ：今日在家无任何消费，看了觉醒年代，感觉自己思想升华了。复习了单词，看了别人写直播写项目，颇有收获。</p><p>明日期望：希望安好</p></blockquote><p style="float: right">2022年12月4日21:22:50</p><br>]]></content>
+        <content type="html"><![CDATA[<h1 id="派大星的日记-22-x2F-12-x2F-03-📔"><a href="#派大星的日记-22-x2F-12-x2F-03-📔" class="headerlink" title="派大星的日记 22&#x2F;12&#x2F;03 📔"></a>派大星的日记 22&#x2F;12&#x2F;03 📔</h1><blockquote><p>天气：今天天气很冷，我感觉很热，难受</p></blockquote><blockquote><p>心情：虽然说今天回家，但我并没有好心情🌼</p></blockquote><style>.main {    padding: 0;    text-indent: 2rem;}.main {    margin: 0 0 !important;    line-height: 2em;    font-family: '微软雅黑';    list-style-type: none !important;}    .img_text {        text-align: center;        margin: 0 !important;        font-size: 12px;    }    .text_color {        background-color: yellow;    }</style><h3 id="日记主体："><a href="#日记主体：" class="headerlink" title="日记主体："></a>日记主体：</h3><p class="main">今天我睡得太死，并没有被闹钟叫醒，所以没领到早餐，还好我室友看到我没去领，他自己去领了。有时候，我总觉得我没醒，是因为闹钟没响，其实不然，闹钟是程序，即使手机关机，它都要把你叫醒，可惜你睡得太死，压根没听到，所以总觉得闹钟没响~早餐很好，沙糕和稀饭。挺好</p><p class="main">中午呢，我爹给我打电话说找到车了，我说没问题，今天做了核酸明天就能走就挂了电话，结果呢我妈也给我打电话，说她也找到车了，我人都傻了，为啥他们都不沟通的，两辆车总得鸽一辆，我妈说今天核酸结果出了，就可以走，于是乎我就选择了今天走。中午的饭是室友领的，饭不错，还是挺好的，吃了饭呢，我就开始和室友一起收拾行李，准备回家，寝室六个人都走，没人宁当守寝人。</p><p class="main">下午呢，就一直在等待，等待着核酸结果出来，就可以回家啦，可是让我没想到的是，这核酸愣是一下午都没出来，可恶。一直等啊等，打着游戏等，看着手机等，生怕错过了，愣是没等出来，可难受死了</p><p class="main">晚上，等啊等，我连学校最后一顿隔离饭都吃上了，还没等出来，我开始有点慌了，怕今天回不去，又得重新找车，重新铺床。等啊等，终于在19点整等到，这期间呢司机是问了很多次，但是嘞，她一直在等，看来他是很想赚我这笔。核酸一出，我就立马背着包，拉着箱，急匆匆的往下走，领了离校证明，走出了宿舍大楼，在19点18分时候我终于出了校门，校门的车特别多，我一辆一辆的看啊，找了车坐了上去，就走上了回家的路。一路上我都难受，司机拉了四个人，副驾驶一个，后排三个挤着坐，可把我热死了，又闷又热。一路上都很难受，难受了两小时左右，终于过收费站，下了车，登记。然后把我送到家门口，一下车我就吐了，司机开的很快，速度都不带停的，一路上弯弯绕，一路上晕乎乎。下了车，我就吐了，吐了一地。</p><p class="main">终于呢我在十点多的时候回到了家，回到家，交代了老妈把我吐的东西收拾一下，毕竟吐了人家门口，蛮不好的。回了家，洗漱，直接就奔床上了，晕晕乎乎的睡着了。明天早上还要等着社区的人来给我做核酸，还有居家隔离三天。</p><blockquote><p>今日总结 ：花销250元车费，因为今天回家，所以今天日记是4号写的。</p><p>明日期望：希望安好</p></blockquote><p style="float: right">2022年12月4日21:01:45</p><br>]]></content>
       
       
       <categories>
@@ -786,7 +798,7 @@
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博客只是一时心血来潮，技术含量也没多少，我需要学习的还有很多。博客大概是我在2022年12月的时候搭建的，那时候在学Java的时候听到老师在说：”作为一名合格的程序员，应该要有自己的博客“ ，于是呢博客就此搭建了，其实这个时候我只掌握了html + css 的基础吧。搭建以及魔改主题基本都是跟着大佬们的教程来的，虽说也能自己改一些内容，但是又不好看。很感谢在这方面开源的大佬们，没有他们可能我的博客还是丑不拉几的。</p><p>博客是搭建好了，其实也没几个人看，有的也是想看看我的日记，在某些时段也有了点访问量。博客呢，写给自己看的，我自己也懒得维护以及更新，即使之前的一日一更的日记也是为了记录封校之后的生活，现在连一周一更都做不到，太懒了。关于博客我并不知道我应该更新些什么。博客嘛，无非就是更新日常生活，自己的学习所得，遇到问题的解决方法。是这样想着的，但发现对于我还是不太行，我学习的太少，更新的也就太少，我的生活无趣，也就更新的太少。</p><h1 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h1><ul><li>博客框架：<a href="https://github.com/hexojs/hexo">Hexo 6.3.0</a></li><li>主题：<a href="https://butterfly.js.org/">Butterfly 4.3.1</a></li><li>源码仓库：<a href="https://github.com/">Github</a></li><li>博客统计：<a href="https://aoaoao.info/321.html">不蒜子</a></li><li>图床：<a href="https://cn.aliyun.com/">阿里云OSS (aliyun.com)</a></li><li>评论系统：<a href="https://console.leancloud.cn/apps">LeanCloud</a></li><li>搭建语言：HTML5 + CSS3 + JavaScript + Pug + YML等</li></ul><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><ul><li><strong>昵称：</strong>派大星</li><li><strong>性别：</strong>♂</li><li><strong>生日：</strong>200X - 09 - 15</li><li><strong>身份：</strong>南方某市在读专科生</li><li><strong>邮箱：</strong><a href="mailto:&#51;&#x33;&#x39;&#53;&#x38;&#55;&#x39;&#x36;&#53;&#x33;&#64;&#x71;&#113;&#46;&#x63;&#x6f;&#109;">&#51;&#x33;&#x39;&#53;&#x38;&#55;&#x39;&#x36;&#53;&#x33;&#64;&#x71;&#113;&#46;&#x63;&#x6f;&#109;</a></li><li><strong>技能：</strong><ul><li><strong>专业：</strong><ul><li>Java(🥦)</li><li>前端(🥦🥦)<ul><li>HTML5(🥕🥕🥕)</li><li>CSS3(🥕🥕)</li><li>Javascript(🥕)</li></ul></li><li>C语言(🥦🥦)</li></ul></li><li><strong>专业外：</strong><ul><li>厨艺(🥦🥦🥦)</li><li>图像处理(🥦🥦)</li></ul></li></ul></li><li><strong>地址：</strong>南方某市</li></ul><h1 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h1><p>在我搭建博客的时候，我还是个刚步入大学没几个月就经历疫情封校的大学生。博客呢也会因为不必要的技术原因关闭，到时我会尽力维护，以至于博客持续存在，尽量满足我大学三年时间。也没想过自己会搭建一个博客，很多东西都是半知半懂，好多东西都是残废的。博客是基于GitHub的，没有服务器，没有域名，啥也没有的单身汉。很多东西也是我现在不能解决的，所以博客能存在多久也看我有没有时间维护吧。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博客只是一时心血来潮，技术含量也没多少，我需要学习的还有很多。博客大概是我在2022年12月的时候搭建的，那时候在学Java的时候听到老师在说：”作为一名合格的程序员，应该要有自己的博客“ ，于是呢博客就此搭建了，其实这个时候我只掌握了html + css 的基础吧。搭建以及魔改主题基本都是跟着大佬们的教程来的，虽说也能自己改一些内容，但是又不好看。很感谢在这方面开源的大佬们，没有他们可能我的博客还是丑不拉几的。</p><p>博客是搭建好了，其实也没几个人看，有的也是想看看我的日记，在某些时段也有了点访问量。博客呢，写给自己看的，我自己也懒得维护以及更新，即使之前的一日一更的日记也是为了记录封校之后的生活，现在连一周一更都做不到，太懒了。关于博客我并不知道我应该更新些什么。博客嘛，无非就是更新日常生活，自己的学习所得，遇到问题的解决方法。是这样想着的，但发现对于我还是不太行，我学习的太少，更新的也就太少，我的生活无趣，也就更新的太少。</p><h1 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h1><ul><li>博客框架：<a href="https://github.com/hexojs/hexo">Hexo 6.3.0</a></li><li>主题：<a href="https://butterfly.js.org/">Butterfly 4.3.1</a></li><li>源码仓库：<a href="https://github.com/">Github</a></li><li>博客统计：<a href="https://aoaoao.info/321.html">不蒜子</a></li><li>图床：<a href="https://cn.aliyun.com/">阿里云OSS (aliyun.com)</a></li><li>评论系统：<a href="https://console.leancloud.cn/apps">LeanCloud</a></li><li>搭建语言：HTML5 + CSS3 + JavaScript + Pug + YML等</li></ul><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><ul><li><strong>昵称：</strong>派大星</li><li><strong>性别：</strong>♂</li><li><strong>生日：</strong>200X - 09 - 15</li><li><strong>身份：</strong>南方某市在读专科生</li><li><strong>邮箱：</strong><a href="mailto:&#51;&#51;&#57;&#x35;&#56;&#x37;&#57;&#x36;&#53;&#x33;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#109;">&#51;&#51;&#57;&#x35;&#56;&#x37;&#57;&#x36;&#53;&#x33;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#109;</a></li><li><strong>技能：</strong><ul><li><strong>专业：</strong><ul><li>Java(🥦)</li><li>前端(🥦🥦)<ul><li>HTML5(🥕🥕🥕)</li><li>CSS3(🥕🥕)</li><li>Javascript(🥕)</li></ul></li><li>C语言(🥦🥦)</li></ul></li><li><strong>专业外：</strong><ul><li>厨艺(🥦🥦🥦)</li><li>图像处理(🥦🥦)</li></ul></li></ul></li><li><strong>地址：</strong>南方某市</li></ul><h1 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h1><p>在我搭建博客的时候，我还是个刚步入大学没几个月就经历疫情封校的大学生。博客呢也会因为不必要的技术原因关闭，到时我会尽力维护，以至于博客持续存在，尽量满足我大学三年时间。也没想过自己会搭建一个博客，很多东西都是半知半懂，好多东西都是残废的。博客是基于GitHub的，没有服务器，没有域名，啥也没有的单身汉。很多东西也是我现在不能解决的，所以博客能存在多久也看我有没有时间维护吧。</p>]]></content>
       
     </entry>
     
@@ -798,6 +810,17 @@
       <url>/css/custom.css</url>
       
         <content type="html"><![CDATA[@import "//at.alicdn.com/t/c/font_3841354_2l8s6vid6qo.css";/* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(--theme-color) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(--theme-color) !important;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 侧边栏个人信息卡片动态渐变色 *//* #aside-content>.card-widget.card-info {  background: linear-gradient(-45deg,      #e8d8b9,      #eccec5,      #a3e9eb,      #bdbdf0,      #eec1ea);  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;} */@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content>.card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {  background-color: #3eb8be;  border-radius: 8px;}/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 文章页背景.layout > div:first-child:not(.recent-posts) {  以下代表白色透明度为0.3  background: rgba(255, 255, 255, 0.9);}所有背景（包括首页卡片、文章页、页面页等）#recent-posts > .recent-post-item,.layout > div:first-child:not(.recent-posts),.layout_post > #page,.layout_post > #post,.read-mode .layout_post > #post {  以下代表白色透明度为0.3  background: rgba(255, 255, 255, 0.8);} *//* 动态渐变 *//* @keyframes gradientBG {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}#web_bg {  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  background-size: 400% 400%;  animation: gradientBG 15s ease infinite;} *//* 图片渐变背景 */#web_bg {  background-image: url('https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png'),    /* linear-gradient(      60deg,      rgba(255, 165, 150, 0.5) 5%,      rgba(0, 228, 255, 0.35)    ), */    url('https://source.fomal.cc/img/dm3.webp');}/* https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg *//* 新年倒计时模块 */.box_text {  padding: 10px;  text-align: center;  margin: 0 auto;  border-radius: 10px;  /* border: 1px solid red; */  /* box-shadow:   0 1px 1px rgba(0, 0, 0, 0.2),  0 8px 0 -3px #f6f6f6,  0 9px 1px -3px rgba(0, 0, 0, 0.3),  0 16px 0 -6px #f6f6f6,  0 17px 2px -6px rgba(0, 0, 0, 0.2); */  position: relative;  max-width: 270px;  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3),    0px 0px 20px rgba(0, 0, 0, 0.1) inset;}/* 让公告文字居中 */.announcement_content {  text-align: center;}/* 设置文章标签外边距 */.far,.fas {  margin: 0px 5px;}:root {  --trans-light: rgba(255, 255, 255, 0.7);  --trans1-light: rgba(255, 255, 255, 0.8);  --trans-dark: rgba(25, 25, 25, 0.88);  --border-style: 1px solid rgb(169, 169, 169);  --backdrop-filter: blur(5px) saturate(150%);}/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 25px;  border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 18px;  border: var(--border-style);}/* 文章页、归档页、普通页面 */div#page,div#archive {  background: var(--trans1-light);  backdrop-filter: var(--backdrop-filter);  border: var(--border-style);  border-radius: 20px;}div#post {  background: var(--trans1-light);  backdrop-filter: var(--backdrop-filter);  border: var(--border-style);  border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {  background: rgba(255, 255, 255, 0.75);  backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {  background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {  background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {  background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {  background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}[data-theme="dark"] .read-mode div#post {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/runtime.min.css"/>
+      <url>/css/runtime.min.css</url>
+      
+        <content type="html"><![CDATA[div#runtime {width: 180px;margin: auto;color: #fff;padding-inline: 5px;border-radius: 10px;background-color: rgba(0, 0, 0, .7)}#workboard {font-size: 12px}[data-theme=dark] div#runtime {color: #28b4c8;box-shadow: 0 0 5px rgba(28, 69, 218, .71);animation: flashlight 1s linear infinite alternate}@-moz-keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}@-webkit-keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}@-o-keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}@keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}]]></content>
       
     </entry>
     
@@ -827,32 +850,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/runtime.min.css"/>
-      <url>/css/runtime.min.css</url>
-      
-        <content type="html"><![CDATA[div#runtime {width: 180px;margin: auto;color: #fff;padding-inline: 5px;border-radius: 10px;background-color: rgba(0, 0, 0, .7)}#workboard {font-size: 12px}[data-theme=dark] div#runtime {color: #28b4c8;box-shadow: 0 0 5px rgba(28, 69, 218, .71);animation: flashlight 1s linear infinite alternate}@-moz-keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}@-webkit-keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}@-o-keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}@keyframes flashlight {from {box-shadow: 0 0 5px #1478d2}to {box-shadow: 0 0 2px #1478d2}}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
-      
-        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {// 仅夜间模式才启用if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {if (document.getElementById("site-name"))document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";if (document.getElementById("site-title"))document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";if (document.getElementById("site-subtitle"))document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";if (document.getElementById("post-info"))document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";try {document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";} catch {}idx++;if (idx == 8) {idx = 0;}} else {// 白天模式恢复默认if (document.getElementById("site-name"))document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";if (document.getElementById("site-title"))document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";if (document.getElementById("site-subtitle"))document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";if (document.getElementById("post-info"))document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";try {document.getElementsByClassName("author-info__name")[0].style.textShadow = "";document.getElementsByClassName("author-info__description")[0].style.textShadow = "";} catch {}}}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/swiper_style.css"/>
       <url>/css/swiper_style.css</url>
       
         <content type="html"><![CDATA[* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}div#swiper_container {background: rgba(255, 255, 255, 0)}.blog-slider {width: 100%;position: relative;border-radius: 12px 8px 8px 12px;margin: auto;background: var(--global-bg);padding: 10px;-webkit-transition: all .3s;-moz-transition: all .3s;-o-transition: all .3s;-ms-transition: all .3s;transition: all .3s}.blog-slider__item {display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;display: box;display: flex;-webkit-box-align: center;-moz-box-align: center;-o-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center}.blog-slider__item.swiper-slide-active .blog-slider__img img {opacity: 1;-ms-filter: none;filter: none;-webkit-transition-delay: .3s;-moz-transition-delay: .3s;-o-transition-delay: .3s;-ms-transition-delay: .3s;transition-delay: .3s}.blog-slider__item.swiper-slide-active .blog-slider__content>* {opacity: 1;-ms-filter: none;filter: none;-webkit-transform: none;-moz-transform: none;-o-transform: none;-ms-transform: none;transform: none}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(1) {-webkit-transition-delay: .3s;-moz-transition-delay: .3s;-o-transition-delay: .3s;-ms-transition-delay: .3s;transition-delay: .3s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(2) {-webkit-transition-delay: .4s;-moz-transition-delay: .4s;-o-transition-delay: .4s;-ms-transition-delay: .4s;transition-delay: .4s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(3) {-webkit-transition-delay: .5s;-moz-transition-delay: .5s;-o-transition-delay: .5s;-ms-transition-delay: .5s;transition-delay: .5s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(4) {-webkit-transition-delay: .6s;-moz-transition-delay: .6s;-o-transition-delay: .6s;-ms-transition-delay: .6s;transition-delay: .6s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(5) {-webkit-transition-delay: .7s;-moz-transition-delay: .7s;-o-transition-delay: .7s;-ms-transition-delay: .7s;transition-delay: .7s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(6) {-webkit-transition-delay: .8s;-moz-transition-delay: .8s;-o-transition-delay: .8s;-ms-transition-delay: .8s;transition-delay: .8s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(7) {-webkit-transition-delay: .9s;-moz-transition-delay: .9s;-o-transition-delay: .9s;-ms-transition-delay: .9s;transition-delay: .9s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(8) {-webkit-transition-delay: 1s;-moz-transition-delay: 1s;-o-transition-delay: 1s;-ms-transition-delay: 1s;transition-delay: 1s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(9) {-webkit-transition-delay: 1.1s;-moz-transition-delay: 1.1s;-o-transition-delay: 1.1s;-ms-transition-delay: 1.1s;transition-delay: 1.1s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(10) {-webkit-transition-delay: 1.2s;-moz-transition-delay: 1.2s;-o-transition-delay: 1.2s;-ms-transition-delay: 1.2s;transition-delay: 1.2s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(11) {-webkit-transition-delay: 1.3s;-moz-transition-delay: 1.3s;-o-transition-delay: 1.3s;-ms-transition-delay: 1.3s;transition-delay: 1.3s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(12) {-webkit-transition-delay: 1.4s;-moz-transition-delay: 1.4s;-o-transition-delay: 1.4s;-ms-transition-delay: 1.4s;transition-delay: 1.4s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(13) {-webkit-transition-delay: 1.5s;-moz-transition-delay: 1.5s;-o-transition-delay: 1.5s;-ms-transition-delay: 1.5s;transition-delay: 1.5s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(14) {-webkit-transition-delay: 1.6s;-moz-transition-delay: 1.6s;-o-transition-delay: 1.6s;-ms-transition-delay: 1.6s;transition-delay: 1.6s}.blog-slider__item.swiper-slide-active .blog-slider__content>:nth-child(15) {-webkit-transition-delay: 1.7s;-moz-transition-delay: 1.7s;-o-transition-delay: 1.7s;-ms-transition-delay: 1.7s;transition-delay: 1.7s}.blog-slider__img {width: 200px;-webkit-flex-shrink: 0;flex-shrink: 0;height: 200px;padding: 10px;border-radius: 5px;-webkit-transform: translateX(0);-moz-transform: translateX(0);-o-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0);overflow: hidden}.blog-slider__img:after {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;border-radius: 5px;opacity: .8}.blog-slider__img img {width: 100%;height: 100%;object-fit: cover;display: block;opacity: 0;border-radius: 5px;-webkit-transition: all .3s;-moz-transition: all .3s;-o-transition: all .3s;-ms-transition: all .3s;transition: all .3s}.blog-slider__content {padding-right: 50px;padding-left: 50px}.blog-slider__content>* {opacity: 0;-webkit-transform: translateY(25px);-moz-transform: translateY(25px);-o-transform: translateY(25px);-ms-transform: translateY(25px);transform: translateY(25px);-webkit-transition: all .4s;-moz-transition: all .4s;-o-transition: all .4s;-ms-transition: all .4s;transition: all .4s}.blog-slider__code {color: var(--font-color);margin-bottom: 0;display: block;font-weight: 500}.blog-slider__title {font-size: 18px;font-weight: 700;color: var(--font-color);margin-bottom: 15px;-webkit-line-clamp: 1;display: -webkit-box;overflow: hidden;-webkit-box-orient: vertical}.blog-slider__text {color: var(--font-color);-webkit-line-clamp: 1;display: -webkit-box;overflow: hidden;-webkit-box-orient: vertical;margin-bottom: 15px;line-height: 1.5em;width: 100%;display: block;word-break: break-all;word-wrap: break-word}.blog-slider__button {display: -webkit-inline-box;display: -moz-inline-box;display: -webkit-inline-flex;display: -ms-inline-flexbox;display: inline-box;display: inline-flex;background-color: var(--btn-bg);padding: 4px 14px;border-radius: 8px;color: var(--btn-color);text-decoration: none;font-weight: 500;-webkit-box-pack: center;-moz-box-pack: center;-o-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;text-align: center;letter-spacing: 1px;display: none}.blog-slider__button:hover {background-color: var(--btn-hover-color);color: var(--btn-color)}.blog-slider .swiper-container-horizontal>.swiper-pagination-bullets,.blog-slider .swiper-pagination-custom,.blog-slider .swiper-pagination-fraction {bottom: 10px;left: 0;width: 100%}.blog-slider__pagination {position: absolute;z-index: 21;right: 20px;width: 11px !important;text-align: center;left: auto !important;top: 50%;bottom: auto !important;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-o-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%)}.blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {margin: 8px 0}.blog-slider__pagination .swiper-pagination-bullet {width: 11px;height: 11px;display: block;border-radius: 10px;background: #858585;opacity: .2;-webkit-transition: all .3s;-moz-transition: all .3s;-o-transition: all .3s;-ms-transition: all .3s;transition: all .3s}.blog-slider__pagination .swiper-pagination-bullet-active {opacity: 1;-ms-filter: none;filter: none;background: var(--btn-bg);height: 30px}@media screen and (max-width:600px) {.blog-slider__pagination {-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-o-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);left: 50% !important;top: 320px;width: 100% !important;display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;display: box;display: flex;-webkit-box-pack: center;-moz-box-pack: center;-o-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-moz-box-align: center;-o-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center}.blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 5px}.blog-slider__pagination .swiper-pagination-bullet-active {height: 11px;width: 30px}.blog-slider__button {display: -webkit-inline-box;display: -moz-inline-box;display: -webkit-inline-flex;display: -ms-inline-flexbox;display: inline-box;display: inline-flex;width: 100%}.blog-slider__text {margin-bottom: 40px}.blog-slider {min-height: 350px;height: auto;margin-top: 110px;margin-bottom: 10px}.blog-slider__content {margin-top: -80px;text-align: center;padding: 0 30px}.blog-slider__item {-webkit-box-orient: vertical;-moz-box-orient: vertical;-o-box-orient: vertical;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column}.blog-slider__img {-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-o-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);width: 90%}.blog-slider__content {padding-left: 10px;padding-right: 10px}.blog-slider__pagination.swiper-pagination-clickable.swiper-pagination-bullets {top: 110px}}@media screen and (min-width:600px) {.blog-slider {height: 200px}.blog-slider__img {height: 200px}}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
+      
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe {display: block;position: fixed;margin: 0;padding: 0;border: 0;outline: 0;left: 0;top: 0;width: 100%;height: 100%;pointer-events: none;/* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */z-index: -1;}]]></content>
       
     </entry>
     
@@ -871,10 +883,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
       
-        <content type="html"><![CDATA[var now = new Date;function createtime() {now.setTime(now.getTime() + 1e3);var e = new Date("11/21/2022 00:00:00"),t = Math.trunc(234e8 + (now - e) / 1e3 * 17),a = (t / 1496e5).toFixed(6),n = new Date("11/21/2022 00:00:00"),s = (now - n) / 1e3 / 60 / 60 / 24,o = Math.floor(s),r = (now - n) / 1e3 / 60 / 60 - 24 * o,i = Math.floor(r);1 == String(i).length && (i = "0" + i);var l = (now - n) / 1e3 / 60 - 1440 * o - 60 * i,b = Math.floor(l);1 == String(b).length && (b = "0" + b);var d = (now - n) / 1e3 - 86400 * o - 3600 * i - 60 * b,c = Math.round(d);1 == String(c).length && (c = "0" + c);let g = "";g = i < 18 && i >= 9 ?`<img class='boardsign' src='https://img.shields.io/badge/石头小屋-下课摸鱼中-6adea8?style=social&logo=cakephp' title='距离发财还需要一段时间嘞'><span class='textTip'> <br> <b>本站居然运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span>  ` :`<img class='boardsign' src='https://img.shields.io/badge/石头小屋-打烊休息啦-6adea8?style=social&logo=coffeescript' title='放学了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> <b>本站居然运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span>  `,document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g)}setInterval((() => {createtime()}), 1e3);]]></content>
+        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {// 仅夜间模式才启用if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {if (document.getElementById("site-name"))document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";if (document.getElementById("site-title"))document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";if (document.getElementById("site-subtitle"))document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";if (document.getElementById("post-info"))document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";try {document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";} catch {}idx++;if (idx == 8) {idx = 0;}} else {// 白天模式恢复默认if (document.getElementById("site-name"))document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";if (document.getElementById("site-title"))document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";if (document.getElementById("site-subtitle"))document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";if (document.getElementById("post-info"))document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";try {document.getElementsByClassName("author-info__name")[0].style.textShadow = "";document.getElementsByClassName("author-info__description")[0].style.textShadow = "";} catch {}}}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
       
     </entry>
     
@@ -882,21 +894,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe {display: block;position: fixed;margin: 0;padding: 0;border: 0;outline: 0;left: 0;top: 0;width: 100%;height: 100%;pointer-events: none;/* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */z-index: -1;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var now = new Date;function createtime() {now.setTime(now.getTime() + 1e3);var e = new Date("11/21/2022 00:00:00"),t = Math.trunc(234e8 + (now - e) / 1e3 * 17),a = (t / 1496e5).toFixed(6),n = new Date("11/21/2022 00:00:00"),s = (now - n) / 1e3 / 60 / 60 / 24,o = Math.floor(s),r = (now - n) / 1e3 / 60 / 60 - 24 * o,i = Math.floor(r);1 == String(i).length && (i = "0" + i);var l = (now - n) / 1e3 / 60 - 1440 * o - 60 * i,b = Math.floor(l);1 == String(b).length && (b = "0" + b);var d = (now - n) / 1e3 - 86400 * o - 3600 * i - 60 * b,c = Math.round(d);1 == String(c).length && (c = "0" + c);let g = "";g = i < 18 && i >= 9 ?`<img class='boardsign' src='https://img.shields.io/badge/石头小屋-下课摸鱼中-6adea8?style=social&logo=cakephp' title='距离发财还需要一段时间嘞'><span class='textTip'> <br> <b>本站居然运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span>  ` :`<img class='boardsign' src='https://img.shields.io/badge/石头小屋-打烊休息啦-6adea8?style=social&logo=coffeescript' title='放学了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> <b>本站居然运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span>  `,document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g)}setInterval((() => {createtime()}), 1e3);]]></content>
       
     </entry>
     
@@ -914,11 +915,11 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[<div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="7316264169" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -936,9 +937,9 @@
     
     
     <entry>
-      <title>这是我的第一篇文章</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -947,9 +948,20 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="7316264169" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是我的第一篇文章</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
