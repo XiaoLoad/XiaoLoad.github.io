@@ -396,6 +396,20 @@
   </url>
   
   <url>
+    <loc>https://xiaoload.github.io/tags/Java/</loc>
+    <lastmod>2023-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaoload.github.io/tags/JavaScript/</loc>
+    <lastmod>2023-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaoload.github.io/tags/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-04-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -410,7 +424,7 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/JavaScript/</loc>
+    <loc>https://xiaoload.github.io/tags/Web/</loc>
     <lastmod>2023-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -418,20 +432,6 @@
   
   <url>
     <loc>https://xiaoload.github.io/tags/Blog/</loc>
-    <lastmod>2023-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/tags/Java/</loc>
-    <lastmod>2023-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/tags/Web/</loc>
     <lastmod>2023-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -454,14 +454,14 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://xiaoload.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://xiaoload.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
