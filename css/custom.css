@@ -77,22 +77,26 @@
 }
 
 /* 黑夜模式适配 */
-[data-theme="dark"] #aside-content>.card-widget.card-info {
+[data-theme="dark"] #aside-content > .card-widget.card-info {
   background: #191919ee;
 }
 
 /* 个人信息Follow me按钮 */
-#aside-content>.card-widget.card-info>#card-info-btn {
+#aside-content > .card-widget.card-info > #card-info-btn {
   background-color: #3eb8be;
   border-radius: 8px;
 }
 
+/* 一图流开始 */
+
 /* 页脚与头图透明 */
 #footer {
+  /* background-image: url(https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/background.webp) !important; */
   background: transparent !important;
 }
 
 #page-header {
+  /* background-image: url(https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/background.webp) !important; */
   background: transparent !important;
 }
 
@@ -114,21 +118,22 @@
   background: transparent !important;
 }
 
+/* 一图流结束 */
 
-/* 文章页背景
+/* 文章页背景 */
 .layout > div:first-child:not(.recent-posts) {
-  以下代表白色透明度为0.3
-  background: rgba(255, 255, 255, 0.9);
+  /* 以下代表白色透明度为0.3 */
+  /* background: rgba(255, 255, 255, 0.9); */
 }
-所有背景（包括首页卡片、文章页、页面页等）
+/* 所有背景（包括首页卡片、文章页、页面页等） */
 #recent-posts > .recent-post-item,
 .layout > div:first-child:not(.recent-posts),
 .layout_post > #page,
 .layout_post > #post,
 .read-mode .layout_post > #post {
-  以下代表白色透明度为0.3
-  background: rgba(255, 255, 255, 0.8);
-} */
+  /* 以下代表白色透明度为0.3 */
+  /* background: rgba(255, 255, 255, 0.1); */
+}
 
 /* 动态渐变 */
 
@@ -164,9 +169,11 @@
 
 /* 新年倒计时模块 */
 .box_text {
+  position: relative;
+  max-width: 270px;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
-  margin: 0 auto;
   border-radius: 10px;
   /* border: 1px solid red; */
   /* box-shadow: 
@@ -177,12 +184,8 @@
 
   0 16px 0 -6px #f6f6f6,
   0 17px 2px -6px rgba(0, 0, 0, 0.2); */
-  position: relative;
-  max-width: 270px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3),
     0px 0px 20px rgba(0, 0, 0, 0.1) inset;
-
-
 }
 
 /* 让公告文字居中 */
@@ -253,7 +256,6 @@ div#post {
 [data-theme="dark"] div#page {
   background: var(--trans-dark);
 }
-
 
 /* 夜间模式页脚页头遮罩透明 */
 [data-theme="dark"] #footer::before {
