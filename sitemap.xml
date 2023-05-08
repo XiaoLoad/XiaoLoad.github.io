@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaoload.github.io/posts/9bceec2a.html</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaoload.github.io/posts/da5d9e68.html</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaoload.github.io/posts/ad5aaefe.html</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaoload.github.io/posts/333e3b5d.html</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaoload.github.io/posts/2328893b.html</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaoload.github.io/posts/391be10a.html</loc>
     
     <lastmod>2023-05-08</lastmod>
@@ -83,54 +128,9 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/posts/2328893b.html</loc>
-    
-    <lastmod>2023-05-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/posts/9bceec2a.html</loc>
-    
-    <lastmod>2023-05-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/posts/333e3b5d.html</loc>
-    
-    <lastmod>2023-05-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/posts/ad5aaefe.html</loc>
-    
-    <lastmod>2023-05-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaoload.github.io/tags/index.html</loc>
     
     <lastmod>2023-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/posts/da5d9e68.html</loc>
-    
-    <lastmod>2023-04-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -459,14 +459,14 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/Web/</loc>
+    <loc>https://xiaoload.github.io/tags/Java/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/Java/</loc>
+    <loc>https://xiaoload.github.io/tags/Web/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -487,14 +487,21 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/hexo/</loc>
+    <loc>https://xiaoload.github.io/tags/Blog/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/Blog/</loc>
+    <loc>https://xiaoload.github.io/tags/%E5%85%BB%E8%8A%B1%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2023-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaoload.github.io/tags/hexo/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -531,14 +538,14 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/categories/hexo/</loc>
+    <loc>https://xiaoload.github.io/categories/Blog/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/categories/Blog/</loc>
+    <loc>https://xiaoload.github.io/categories/hexo/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
