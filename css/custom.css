@@ -121,19 +121,17 @@
 /* 一图流结束 */
 
 /* 文章页背景 */
-.layout > div:first-child:not(.recent-posts) {
-  /* 以下代表白色透明度为0.3 */
-  /* background: rgba(255, 255, 255, 0,9); */
-}
+/* .layout > div:first-child:not(.recent-posts) {
+  background: rgba(255, 255, 255, 0,9);
+} */
 /* 所有背景（包括首页卡片、文章页、页面页等） */
-#recent-posts > .recent-post-item,
+/* #recent-posts > .recent-post-item,
 .layout > div:first-child:not(.recent-posts),
 .layout_post > #page,
 .layout_post > #post,
 .read-mode .layout_post > #post {
-  /* 以下代表白色透明度为0.3 */
   background: rgba(255, 255, 255, 0.7);
-} 
+}  */
 
 /* 动态渐变 */
 
@@ -156,13 +154,13 @@
 
 /* 图片渐变背景 */
 #web_bg {
-  background-image: url('https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png'),
+  background-image: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"),
     /* linear-gradient(
       60deg,
       rgba(0, 0, 0, 0.5) 5%,
       rgba(0, 0, 0, 0.35)
     ), */
-    url('https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/background.webp');
+      url("https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/background.webp");
 }
 
 /* https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg */
@@ -201,7 +199,7 @@
 
 :root {
   --trans-light: rgba(255, 255, 255, 0.7);
-  --trans1-light: rgba(255, 255, 255, 0.8);
+  --trans1-light: rgba(255, 255, 255, 0.7);
   --trans-dark: rgba(25, 25, 25, 0.88);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(5px) saturate(150%);
@@ -225,7 +223,8 @@
 
 /* 文章页、归档页、普通页面 */
 div#page,
-div#archive {
+div#archive,
+div#category {
   background: var(--trans1-light);
   backdrop-filter: var(--backdrop-filter);
   border: var(--border-style);
@@ -253,7 +252,8 @@ div#post {
 [data-theme="dark"] #aside-content .card-widget,
 [data-theme="dark"] div#post,
 [data-theme="dark"] div#archive,
-[data-theme="dark"] div#page {
+[data-theme="dark"] div#page,
+[data-theme="dark"] div#category  {
   background: var(--trans-dark);
 }
 
