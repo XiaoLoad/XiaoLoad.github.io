@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaoload.github.io/posts/5e0498dc.html</loc>
+    
+    <lastmod>2023-05-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaoload.github.io/posts/391be10a.html</loc>
     
     <lastmod>2023-05-09</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://xiaoload.github.io/posts/9845.html</loc>
-    
-    <lastmod>2023-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoload.github.io/posts/5e0498dc.html</loc>
     
     <lastmod>2023-05-09</lastmod>
     
@@ -466,14 +466,14 @@
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/Web/</loc>
+    <loc>https://xiaoload.github.io/tags/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaoload.github.io/tags/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://xiaoload.github.io/tags/Web/</loc>
     <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
