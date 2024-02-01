@@ -155,7 +155,8 @@
 /* 图片渐变背景 */
 #web_bg {
   background-image: url("https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/back.jpg");
-  background-size: 101% 100%;
+  background-position: center center;
+  background-size: cover;
 }
 /* https://typora-xjw.oss-cn-chengdu.aliyuncs.com/img/background.webp */
 /* https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg */
@@ -248,7 +249,7 @@ div#post {
 [data-theme="dark"] div#post,
 [data-theme="dark"] div#archive,
 [data-theme="dark"] div#page,
-[data-theme="dark"] div#category  {
+[data-theme="dark"] div#category {
   background: var(--trans-dark);
 }
 
