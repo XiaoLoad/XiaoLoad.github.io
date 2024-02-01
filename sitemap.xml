@@ -615,6 +615,13 @@
   </url>
   
   <url>
+    <loc>https://lovex2095.top/tags/Blog/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lovex2095.top/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -623,13 +630,6 @@
   
   <url>
     <loc>https://lovex2095.top/tags/hexo/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lovex2095.top/tags/Blog/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -680,14 +680,14 @@
   </url>
   
   <url>
-    <loc>https://lovex2095.top/categories/hexo/</loc>
+    <loc>https://lovex2095.top/categories/Blog/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lovex2095.top/categories/Blog/</loc>
+    <loc>https://lovex2095.top/categories/hexo/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
