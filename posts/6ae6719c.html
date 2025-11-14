@@ -227,7 +227,7 @@ if ('Valine' === 'Valine' || !false) {
 }</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script src="/js/light.js" anync></script><script src="/js/timging.js" anync></script><script async src="/js/grayscale.js"></script><script defer data-pjax src="/js/readPercent.js"></script><script src="/js/pop_up.js" async></script><script async src="/js/diyTitle.js"></script><script async data-pjax src="/js/anzhiyu.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="30" mobile="false" src="https://cdn.staticfile.org/butterfly-extsrc/1.1.3/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js"></script><script src="https://npm.elemecdn.com/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://lib.baomitu.com/pjax/0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
 var pjax = new Pjax({
-  elements: 'a:not([target="_blank"])',
+  elements: 'a:not([target="_blank"]):not([href="/archives/"]):not([href="/archives/**"]):not([href="/categories/**"]):not([href="/tags/**"]):not([href="/page/**"]):not([href="/music/"]):not([href="/movies/"])',
   selectors: pjaxSelectors,
   cacheBust: false,
   analytics: false,
